@@ -88,8 +88,8 @@ const decidirPuntaje = () => {
         resultadoTexto.textContent = "Empate 😐";
     }
     else if (eleccionUsuaria == "papel") {
-        puntajeUsuaria.textContent = puntosUsuaria;
         puntosUsuaria++;
+        puntajeUsuaria.textContent = puntosUsuaria;
         resultadoTexto.textContent = "Ganaste 😍";
     }
     else {
